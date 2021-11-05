@@ -1,0 +1,13 @@
+﻿body
+{
+    background:gray;
+    font-family: sans-serif;
+    margin-top: 0px;
+    
+}
+
+.caixa {
+    background: red; 
+    height: 120px; 
+    width: 120px;
+}

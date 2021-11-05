@@ -1,0 +1,13 @@
+/*
+ID Classes, atributos e pseudo-classes Elementos e pseudo-elementos
+*/
+#p{
+    background: red;
+}
+
+#p.p{
+    background: yellow !important;
+}
+p#p.p{
+    background: gray;
+}
