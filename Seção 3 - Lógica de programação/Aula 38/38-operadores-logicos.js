@@ -13,6 +13,9 @@ console.log(expressao2);
 
 
 const usuario = 'Luiz';
-const senha = '123456';
+const senha = '123456'; //true              //false
 const vaiLogar = usuario ==='Luiz' && senha ==='123456';
 console.log(vaiLogar);
+
+
+console.log(!true);
