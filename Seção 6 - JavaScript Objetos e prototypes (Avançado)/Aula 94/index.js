@@ -1,17 +1,9 @@
-// new Object -> Object.prototype
-const objA = {
-    chaveA: 'A'
-    // ___proto__: Object.prototype
+function Produto(nome, preco){
+    this.nome = nome;
+    this.preco = preco;
+}
+
+Produto.prototype.desconto = function(percentual) {
+    this.preco = this.preco - (this.preco * (percentual / 10));
 };
 
-const objB = {
-    chaveB: 'B'
-    // __proto__: objA
-};
-
-const objC = new Object();
-objC.chaveC = 'C';
-
-Object.setPrototypeOf(objB, objA);
-Object.setPrototypeOf(objC, objB);
-console.log(objB.chaveA);
